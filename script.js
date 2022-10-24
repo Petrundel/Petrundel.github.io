@@ -8,7 +8,8 @@ let phrases = [
   { text: 'прочитать новости и ужаснуться в комментариях', image: 'https://code.s3.yandex.net/web-code/procrastinate/7.png' },
   { text: 'попасть в поток грустных песен и вспомнить все ошибки молодости', image: 'https://code.s3.yandex.net/web-code/procrastinate/8.png' },
   { text: 'посмотреть трейлер сериала и заодно первый сезон', image: 'https://code.s3.yandex.net/web-code/procrastinate/9.png' },
-  { text: 'проверить непрочитанное в Telegram-каналах', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' }
+  { text: 'проверить непрочитанное в Telegram-каналах', image: 'https://code.s3.yandex.net/web-code/procrastinate/10.png' },
+  { text: ' сидеть дома', image: 'https://w7.pngwing.com/pngs/99/184/png-transparent-victoria-s-secret-fashion-show-2016-pink-brand-customer-dior-logo-thumbnail.png' },
 ];
 
 function getRandomElement(arr) {
@@ -36,3 +37,4 @@ for (let i=0; i <=2; i=i+1){
   smoothly(phrase, 'textContent', phrases[i].text);
   smoothly(image, 'src', phrases[i].image);
 }
+
